@@ -1,3 +1,4 @@
+import { PaymentDetailService } from './../../share/payment-detail.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PaymentDetailFormComponent implements OnInit {
 
-  constructor() { }
+  constructor(public service: PaymentDetailService) { }
 
   ngOnInit() {
   }

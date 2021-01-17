@@ -5,6 +5,7 @@
     "downlevelIteration": true,
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
+    "strictPropertyInitialization": false,
     "declaration": false,
     "module": "es2020",
     "moduleResolution": "node",
@@ -12,12 +13,7 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "es2015",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2018",
-      "dom"
-    ]
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2018", "dom"]
   }
 }

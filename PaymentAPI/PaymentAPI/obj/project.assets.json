@@ -7681,11 +7681,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\francisco.martin\\source\\repos\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
+      "projectUniqueName": "C:\\Users\\francisco.martin\\source\\repos\\PaymentForm\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
       "projectName": "PaymentAPI",
-      "projectPath": "C:\\Users\\francisco.martin\\source\\repos\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
+      "projectPath": "C:\\Users\\francisco.martin\\source\\repos\\PaymentForm\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
       "packagesPath": "C:\\Users\\francisco.martin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\francisco.martin\\source\\repos\\PaymentAPI\\PaymentAPI\\obj\\",
+      "outputPath": "C:\\Users\\francisco.martin\\source\\repos\\PaymentForm\\PaymentAPI\\PaymentAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

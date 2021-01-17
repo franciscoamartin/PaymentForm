@@ -1,20 +1,19 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { FormsModule } from "@angular/forms";
 
-import { AppComponent } from './app.component';
-import { PaymentDetailsComponent } from './payment-details/payment-details.component';
-import { PaymentDetailFormComponent } from './payment-details/payment-detail-form/payment-detail-form.component';
+import { AppComponent } from "./app.component";
+import { PaymentDetailsComponent } from "./payment-details/payment-details.component";
+import { PaymentDetailFormComponent } from "./payment-details/payment-detail-form/payment-detail-form.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     PaymentDetailsComponent,
-    PaymentDetailFormComponent
+    PaymentDetailFormComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
