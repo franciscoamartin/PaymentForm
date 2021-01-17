@@ -1,4 +1,4 @@
-<form novalidate #form="ngForm">
+<form novalidate autocomplete="off" #form="ngForm" (submit)="onSubmit(form)">
   <input
     type="hidden"
     name="paymentDetailId"
@@ -32,7 +32,7 @@
       <input
         class="form-control form-control-lg"
         type="password"
-        placeholder="16 Digit Card Number"
+        placeholder="CVV"
         name="securityCode"
         #securityCode="ngModel"
         [(ngModel)]="service.formData.securityCode"
@@ -44,10 +44,10 @@
       <input
         class="form-control form-control-lg"
         placeholder="MM/YY"
-        name="expirationDate"
-        #expirationDate="ngModel"
-        [(ngModel)]="service.formData.expirationDate"
-        required maxlength="5" minlength="5" [class.invalid]="expirationDate.invalid && expirationDate.touched"
+        name="expirate"
+        #expirate="ngModel"
+        [(ngModel)]="service.formData.expirate"
+        required maxlength="5" minlength="5" [class.invalid]="expirate.invalid && expirate.touched"
       />
     </div>
   </div>
