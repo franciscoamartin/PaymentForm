@@ -26,4 +26,8 @@ export class PaymentDetailService {
       .toPromise()
       .then((res) => (this.list = res as PaymentDetail[]));
   }
+
+  deletePaymentDetail(id:number){
+    return this.http.delete(`${this.baseURL}/${id}`);
+  }
 }
