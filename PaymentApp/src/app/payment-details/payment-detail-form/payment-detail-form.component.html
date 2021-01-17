@@ -12,7 +12,7 @@
       name="cardOwnerName"
       #cardOwnerName="ngModel"
       [(ngModel)]="service.formData.cardOwnerName"
-    />
+    >
   </div>
   <div class="form-group">
     <label>CARD NUMBER</label>
@@ -22,27 +22,29 @@
       name="cardNumber"
       #cardNumber="ngModel"
       [(ngModel)]="service.formData.cardNumber"
-    />
+    >
   </div>
-  <div class="form-group">
-    <label>SECURITY CODE</label>
-    <input
-      class="form-control form-control-lg"
-      type="password"
-      placeholder="16 Digit Card Number"
-      name="securityCode"
-      #securityCode="ngModel"
-      [(ngModel)]="service.formData.securityCode"
-    />
-  </div>
-  <div class="form-group">
-    <label>VALIDE THROUGH</label>
-    <input
-      class="form-control form-control-lg"
-      placeholder="MM/YY"
-      name="expirationDate"
-      #expirationDate="ngModel"
-      [(ngModel)]="service.formData.expirationDate"
-    />
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label>SECURITY CODE</label>
+      <input
+        class="form-control form-control-lg"
+        type="password"
+        placeholder="16 Digit Card Number"
+        name="securityCode"
+        #securityCode="ngModel"
+        [(ngModel)]="service.formData.securityCode"
+      >
+    </div>
+    <div class="form-group col-md-6">
+      <label>VALIDE THROUGH</label>
+      <input
+        class="form-control form-control-lg"
+        placeholder="MM/YY"
+        name="expirationDate"
+        #expirationDate="ngModel"
+        [(ngModel)]="service.formData.expirationDate"
+      >
+    </div>
   </div>
 </form>
